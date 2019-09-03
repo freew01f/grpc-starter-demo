@@ -1,0 +1,9 @@
+syntax = "proto3";
+option java_multiple_files = true;
+package com.example.grpcdemo.grpc;
+
+message Member {
+    string username = 1;
+    string password = 2;
+    string info = 3;
+}

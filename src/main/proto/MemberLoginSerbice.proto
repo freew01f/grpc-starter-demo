@@ -1,0 +1,16 @@
+syntax = "proto3";
+option java_multiple_files = true;
+package com.example.grpcdemo.grpc;
+import "Member.proto";
+
+message MemberLoginRequest {
+    Member member = 1;
+}
+
+message MemberLoginResponse {
+    string token = 1;
+}
+
+service MemberLoginService {
+    rpc member_login(MemberLoginRequest) returns (MemberLoginResponse);
+}
