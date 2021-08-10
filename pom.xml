@@ -20,6 +20,7 @@
         <os-maven-plugin.version>1.6.2</os-maven-plugin.version>
         <protobuf-maven-plugin.version>0.6.1</protobuf-maven-plugin.version>
         <grpc-starter-version>3.4.1</grpc-starter-version>
+        <protobuf.version>3.3.0</protobuf.version>
     </properties>
 
     <dependencies>
